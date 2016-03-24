@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Intents</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="applestext">Apples</string>
+    <string name="applesbutton">Go to Bacon</string>
+    <string name="title_activity_bacon">Bacon</string>
+</resources>

@@ -1,0 +1,148 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="drawer_open">Menu opened</string>
+    <string name="drawer_close">Menu closed</string>
+    <string name="action_settings">Settings</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="aboutAddison">About Addison</string>
+    <string name="AbtAddison">Addison is one of India’s leading manufacturers for Cutting Tools.
+        Headquartered In Chennai, South India, Addison is a part of the Amalgamations Group.\n\nIt is the preferred brand on shop floors and  is ever “A CUT ABOVE THE REST”.
+
+        </string>
+    <string name="abtAddison2"><![CDATA[It deals with the manufacture of HSS Cutting Tools, Machine Tools etc.
+    It also deals with TRADING of Castings. Addison operates throughout India by way of its branches &
+    also caters to the requirements of Export markets like USA, Canada, Japan & Europe, as well as Latin
+     America, South East Asia & Africa. \n\nAddison operates out of Chennai with its Registered and City
+     Administrative Office located at Chennai, and its state-of-the-art factory located at Irungattukottai,
+      40kms from Chennai. Its Branches are located at Bangalore, Mumbai, Delhi, Ahmedabad, Ludhiana & Kolkotta. \n\n
+     It started the manufacture of Cutting Tools & Grey Iron Castings in the year 1955, thus becoming a
+       pioneer in the Indian Cutting Tools Manufacturing companies.\n\n]]></string>
+    <string-array name="Products">
+        <item>None</item>
+        <item>Centre Drills</item>
+        <item>End Mills</item>
+        <item>Ground Thread Taps</item>
+        <item>Milling Cutters</item>
+        <item>Reamers</item>
+        <item>Twist Drills</item>
+        <item>Solid Carbide</item>
+        <item>Machine Tools</item>
+    </string-array>
+    <string-array name="CentreDrills">
+        <item>None</item>
+        <item>Centre Drills</item>
+        <item>Counter Sinks</item>
+    </string-array>
+    <string-array name="EndMills">
+        <item>None</item>
+        <item>Nomenclature</item>
+        <item>Parallel Shank</item>
+        <item>Taper Shank</item>
+        <item>Slot Drills</item>
+        <item>Woodruff Key Clutters</item>
+        <item>T Slot Cutters</item>
+        <item>Screwed Shank</item>
+        <item>Hole Mills</item>
+        <item>Roughing End Mills</item>
+        <item>Roughing Shell End Mills</item>
+    </string-array>
+    <string-array name="GroundThreadTaps">
+        <item>None</item>
+        <item>Nomenclature</item>
+        <item>Hand and Short Machine Taps</item>
+        <item>Long Shank Machine Taps</item>
+        <item>Nut Taps</item>
+        <item>Hand Taps</item>
+    </string-array>
+    <string-array name="MillingCutters">
+        <item>None</item>
+        <item>Nomenclature</item>
+        <item>CylindricalCutters></item>
+        <item>Side and Face Cutters</item>
+        <item>Slotting Cutters</item>
+        <item>Metal Sitting Saws</item>
+        <item>Keyway Milling Cutters</item>
+        <item>Shell End Single Angle Milling</item>
+        <item>Single Angle Cutters</item>
+        <item>Double Angle Cutters</item>
+        <item>Equal Angle Cutters</item>
+        <item>Convex Milling Cutters</item>
+        <item>Concave Cutters</item>
+        <item>Single Corner Rounding Cutters</item>
+        <item>Gear Cutters</item>
+        <item>Rotary Form Cutters</item>
+        <item>Shell End Mills</item>
+        <item>Face Cutters</item>
+        <item>Hollow Mills</item>
+    </string-array>
+    <string-array name="Reamers">
+        <item>None</item>
+        <item>Nomenclature</item>
+        <item>Parallel Hand Reamers</item>
+        <item>Long Flute Machine Reamers</item>
+        <item>Machine Jig Reamers</item>
+        <item>Chucking Reamers</item>
+        <item>Shell Reamers</item>
+        <item>Shell Core Drills</item>
+        <item>Shell Drills</item>
+        <item>Socket Reamers</item>
+        <item>Pin Reamers</item>
+        <item>Machine Bridge Reamers</item>
+        <item>Centre Reamers</item>
+        <item>Counter Bores</item>
+        <item>Counter Sinks</item>
+    </string-array>
+    <string-array name="TwistDrills">
+        <item>Nomenclature</item>
+        <item>PSTD(ISS) Jobber Series</item>
+        <item>PSTD(BSS) Jobbers Series</item>
+        <item>HSS PSTD Stub Series</item>
+        <item>HSS PSTD Long Series</item>
+        <item>HSS PSTD Ex. Long Series</item>
+        <item>PSTD Reduced Shank</item>
+        <item>Silver and Deming Drills</item>
+        <item>TSTD</item>
+        <item>TSTD Long Series</item>
+        <item>TSTD Ex. Long Series</item>
+        <item>TS Core Drills</item>
+        <item>SubLand Parallel Shank</item>
+        <item>Subland Taper Shank</item>
+    </string-array>
+    <string-array name="SolidCarbide">
+        <item>Stright Shank Drills</item>
+        <item>Stepped Shank Drills-internal collent holes</item>
+        <item>Collant Burnishing Drills</item>
+        <item>Central Drills</item>
+        <item>Parallel Shank</item>
+        <item>End Mill</item>
+    </string-array>
+    <string-array name="MachineTools">
+        <item>Machine Tools</item>
+    </string-array>
+    <string-array name="StateArray">
+        <item>ANDHRA PRADESH</item>
+        <item>ASSAM</item>
+        <item>CHHATTISGARH</item>
+        <item>GUJARAT</item>
+        <item>HARYANA</item>
+        <item>JHARKHAND</item>
+        <item>KARNATAKA</item>
+        <item>KERALA</item>
+        <item>MADHYA PRADESH</item>
+        <item>MAHARASHTRA</item>
+        <item>ODISHA</item>
+        <item>PUDUCHERRY</item>
+        <item>PUNJAB</item>
+        <item>RAJASTHAN</item>
+        <item>TAMIL NADU</item>
+        <item>UTTARAKHAND</item>
+        <item>UTTAR PRADESH</item>
+        <item>WEST BENGAL</item>
+    </string-array>
+    <string name="Searchbutton">SEARCH</string>
+    <string name="title_activity_dealers_list">DealersList</string>
+
+    <string name="hello_world">Hello world!</string>
+</resources>

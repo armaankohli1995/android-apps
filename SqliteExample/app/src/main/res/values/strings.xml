@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Sqlite Example</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="add">ADD</string>
+    <string name="delete">Delete</string>
+    <string name="largetext">Large Text</string>
+</resources>

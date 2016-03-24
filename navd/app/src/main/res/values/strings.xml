@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">navd</string>
+
+    <string name="title_section1">Home</string>
+    <string name="title_section2">Brands</string>
+    <string name="title_section3">My Orders</string>
+    <string name="title_section4">Ping</string>
+    <string name="title_section5">Help and Support</string>
+    <string name="title_section6">Feedback</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_brands">brands</string>
+
+    <string name="hello_world">Hello world!</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_problems">problems</string>
+</resources>

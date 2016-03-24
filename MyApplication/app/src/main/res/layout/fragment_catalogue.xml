@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.firstapp.myapplication.Catalogue">
+
+    <!-- TODO: Update blank fragment layout -->
+            android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="SELECT PRODUCT"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/textView4"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:gravity="center" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ProductSpinner"
+        android:layout_below="@+id/textView4"
+        android:entries="@array/Products"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="SELECT SUBPRODUCT"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/textView5"
+        android:layout_below="@+id/ProductSpinner"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="10dp" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/SubProductSpinner"
+        android:layout_below="@+id/textView5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="GET THE LIST"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:id="@+id/GetListButton"
+        android:layout_below="@+id/SubProductSpinner"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="#e0fcff">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/daytext"
+        android:id="@+id/dayText"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/timeText"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/daySpinner"
+        android:entries="@array/dayArray"
+        android:textAlignment="center"
+        android:layout_below="@+id/dayText"
+        android:layout_alignStart="@+id/searchButton" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/timetext"
+        android:id="@+id/timeText"
+        android:layout_below="@+id/daySpinner"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/timeSpinner"
+        android:layout_below="@+id/timeText"
+        android:entries="@array/timeArray"
+        android:layout_alignStart="@+id/searchButton" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/searchbutton"
+        android:id="@+id/searchButton"
+        android:onClick="onClickFindClass"
+        android:layout_below="@+id/timeSpinner"
+        android:layout_alignEnd="@+id/DBDisplayText" />
+
+    <ScrollView
+        android:id="@+id/SCROLLER_ID"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:fillViewport="true"
+        android:layout_alignBottom="@+id/DBDisplayText"
+        android:layout_alignParentStart="true">
+
+    </ScrollView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/DBDisplayText"
+        android:layout_marginTop="40dp"
+        android:nestedScrollingEnabled="false"
+        android:layout_below="@+id/searchButton"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

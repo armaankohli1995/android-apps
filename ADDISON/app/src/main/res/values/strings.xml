@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ADDISON</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="Searchbutton">SEARCH</string>
+    <string-array name="StateArray">
+        <item>HARYANA</item>
+        <item>MADHYA PRADESH</item>
+        <item>RAJASTHAN</item>
+        <item>UTTARAKHAND</item>
+        <item>UTTAR PRADESH</item>
+    </string-array>
+</resources>
